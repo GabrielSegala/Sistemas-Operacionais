@@ -58,3 +58,11 @@ Cache é uma memória pequena e rápida que guarda dados usados com frequência 
 -----------------------------------------------------------------------------------------------------------
 
 9. Caracterize os diferentes tipos de proteção de hardware suportados em um sistema de computação.
+Modo usuário e modo kernel – separa programas do sistema operacional
+Proteção de memória – impede acesso indevido a áreas de memória
+Proteção de I/O – controla acesso aos dispositivos
+Timer – evita que programas usem a CPU indefinidamente
+
+
+
+Apresentação dos slides da aula 2, professora pulou "Chamadas ao Sistema"
