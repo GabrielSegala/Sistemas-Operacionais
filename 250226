@@ -1,0 +1,60 @@
+Estudo Dirigido correcao da aula 1
+
+1. Caracterize um sistema de computação moderno
+CPU (processador) – executa instruções
+Memória (RAM) – armazena dados temporariamente
+Dispositivos de armazenamento – HD/SSD
+Dispositivos de entrada e saída (I/O) – teclado, mouse, monitor
+Sistema Operacional – gerencia todos os recursos
+------------------------------------------------------------------------------
+
+2. Quais a etapas de inicialização do computador?
+Ao ligar, o firmware (BIOS/UEFI) é executado
+Carrega o bootloader
+O bootloader carrega o Sistema Operacional
+O SO inicializa serviços e drivers
+----------------------------------------------------------------
+
+3. O que é interrupção? Como os Sistemas Operacionais tratam as interrupções?
+Interrupção é um sinal que faz a CPU parar o que está fazendo para atender um evento (ex: teclado, erro, I/O).
+
+O SO trata interrupções:
+Salvando o estado atual da CPU
+Executando uma rotina de tratamento (ISR)
+Restaurando o estado anterior e continuando a execução
+------------------------------------------------------------------------------------------
+
+4. Defina I/O síncrona e I/O assíncrona. Qual permite melhor uso da CPU?
+I/O síncrona: a CPU espera a operação terminar.
+I/O assíncrona: a CPU continua executando outras tarefas enquanto espera.
+👉 A I/O assíncrona permite melhor uso da CPU.
+------------------------------------------------------------------------------
+
+5. Qual a finalidade da DMA – Direct Memory Access?
+A DMA permite que dispositivos transfiram dados diretamente para a memória, sem usar constantemente a CPU, aumentando o desempenho.
+------------------------------------------------------------------------------------------------
+
+6. Como funciona a RAM? Qual o ciclo básico de execução de uma instrução?
+A RAM armazena dados temporariamente enquanto o computador está ligado. É volátil (perde dados ao desligar).
+
+Ciclo básico da instrução:
+Busca (Fetch) – busca a instrução na memória
+Decodificação (Decode) – interpreta a instrução
+Execução (Execute) – executa a operação
+----------------------------------------------------------------------------------
+
+7. Caracterize a estrutura de armazenamento de um sistema de computação.
+Organizada em hierarquia:
+Registradores (mais rápidos)
+Cache
+RAM
+HD/SSD (armazenamento secundário)
+
+Quanto mais próximo da CPU, mais rápido e mais caro.
+-----------------------------------------------------------------------
+
+8. Em que consiste o uso de cache?
+Cache é uma memória pequena e rápida que guarda dados usados com frequência para acelerar o acesso da CPU.
+-----------------------------------------------------------------------------------------------------------
+
+9. Caracterize os diferentes tipos de proteção de hardware suportados em um sistema de computação.
