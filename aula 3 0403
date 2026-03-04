@@ -1,0 +1,10 @@
+chamadas do Sistema
+
+Copiar 2 arquivos
+1) Criar o novo arquivo copia txt (Abrir criando em modo da escrita)
+2) Abrir o arquivo original.txt em modo leitura
+3) Ler 1 linha no arquivo original.txt
+4) gerar uma linha no arquiv copia.txt
+5) repetir passos 3 e 4 enquanto !EOF
+6) Fcehar o arquivo original.txt
+7) Fcehar o arquivo copia.txt
